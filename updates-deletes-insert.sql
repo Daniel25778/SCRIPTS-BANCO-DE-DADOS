@@ -2,7 +2,7 @@
 
 	#Insert de valores individuais
 	insert into tblGenero (nome)
-		values('Aventura');
+		values('Romance');
         
         
 	#Insert de múltiplos valores
@@ -66,7 +66,9 @@ select * from tblClassificacao;
  update tblFilme set duracao = '03:00:00' where idFilme = 1;                                
        
   
-
+#Delete 
+delete from tblGenero
+    where idGenero = 6;
   
  select * from tblFilme;      
  select * from tblClassificacao; 
