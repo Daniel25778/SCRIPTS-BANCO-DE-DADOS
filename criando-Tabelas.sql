@@ -9,6 +9,7 @@
  #Permite visualizar os databases existentes no BD
  show databases;
  
+ 
 #Permite apagar um database no BD
  #drop database dbFilmesTurmaB;
  
@@ -24,6 +25,14 @@ create table tblClassificacao(
 
 #Permite visualizar as tabelas existentes no DB
 show tables;
+
+ select * from tblAtor; 
+ select * from tblAtornacionalidade;      
+ select * from tblatorsexo; 
+ select * from tblclassificacao;
+ select * from  tbldiretor;
+ select * from  tblSexo;
+ 
 
 create table tblSexo(
 	idSexo int not null auto_increment,
